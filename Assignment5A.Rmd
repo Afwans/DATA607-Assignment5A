@@ -1,0 +1,22 @@
+---
+title: 'Assignment 5A: Airline Delays'
+author: "Mohd Afwan Shaikh"
+date: "2026-10-02"
+output:
+  html_document:
+    theme: yeti
+    highlight: tango
+    toc: true
+    toc_float: true
+  pdf_document:
+    toc: true
+---
+# Assignment 5A Airline Delays: Approach
+
+For this assignment, I will analyze airline arrival data for Alaska Airlines and AM West across five destinations: Los Angeles, Phoenix, San Diego, San Francisco, and Seattle.
+
+I will first recreate the provided data in a CSV file using the same wide format as the original table, including any missing values. I will upload the data file to GitHub and read it into R. Using `dplyr` and `tidyr`, I will clean the data, handle missing values, and transform it from wide format to long format.
+
+I will then calculate the percentage of flights that were delayed and on time for each airline. I will compare the overall performance of Alaska Airlines and AM West and then compare their performance separately across the five destinations using tables and visualizations.
+
+Finally, I will examine whether the overall comparison tells the same story as the city-by-city comparison and explain any discrepancy between the two results.
